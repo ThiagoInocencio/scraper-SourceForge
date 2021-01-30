@@ -1,0 +1,6 @@
+Package: proj
+Depends: R (>= 3.3.2)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: xml2, rvest, purrr, magrittr, httr, dplyr, stringr, plyr
