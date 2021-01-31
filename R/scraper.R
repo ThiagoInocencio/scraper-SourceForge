@@ -8,8 +8,8 @@
 # | Loading packages
 # |
 # ----------------------------------------------------------------------------
-source("R/packages.R")
-#installPackages()
+source("packages.R")
+installPackages()
 loadPackages()
 
 
@@ -18,7 +18,8 @@ loadPackages()
 # | Loading Useful functions
 # |
 # ----------------------------------------------------------------------------
-source("R/functions.R")
+source("functions.R")
+`%nin%` = Negate(`%in%`)
 
 # ----------------------------------------------------------------------------
 # |
@@ -27,7 +28,7 @@ source("R/functions.R")
 # ----------------------------------------------------------------------------
 
 # loading some values
-source(".Rprofile")
+source("../.Rprofile")
 
 # ----------------------------------------------------------------------------
 # |

@@ -6,6 +6,9 @@ installPackages <- function(){
   install.packages("xlsx")
   install.packages("magrittr") # package installations are only needed the first time you use it
   install.packages("dplyr")    # alternative installation of the %>%
+  install.packages("httr")
+  install.packages("plyr")
+  install.packages("acepack")
 }
 
 loadPackages <- function() {
@@ -16,7 +19,7 @@ loadPackages <- function() {
   library(plyr)
   library(magrittr)
   library(stringr)
-  library(Hmisc)
+ # library(Hmisc)
   library(magrittr) # needs to be run every time you start R and want to use %>%
   library(dplyr)    # alternatively, this also loads %>%
 }
